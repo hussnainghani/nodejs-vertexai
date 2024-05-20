@@ -36,7 +36,8 @@
     "cover:report": "nyc report --reporter=lcov"
   },
   "dependencies": {
-    "google-auth-library": "^9.1.0"
+    "google-auth-library": "^9.1.0",
+    "node-fetch": "^3.3.2"
   },
   "devDependencies": {
     "@types/jasmine": "^5.1.2",
@@ -48,7 +49,7 @@
     "jsdoc-fresh": "^3.0.0",
     "jsdoc-region-tag": "^3.0.0",
     "linkinator": "^4.0.0",
-    "typescript": "~5.2.0",
-    "nyc": "^15.1.0"
+    "nyc": "^15.1.0",
+    "typescript": "~5.2.0"
   }
 }
